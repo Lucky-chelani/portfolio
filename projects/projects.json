@@ -1,0 +1,53 @@
+[
+  {
+    "name": "FlimX",
+    "desc": "Flimx is a Film Encyclopaedia, addresses the issue of scattered information by aggregating movie details from trusted sources.",
+    "image": "flimx",
+    "category": "basicweb",
+    "links": {
+      "view": "https://www.linkedin.com/posts/lucky-chelani_jetpackcompose-kotlin-moviesearch-activity-7193906246230388736-iGaW?utm_source=share&utm_medium=member_desktop",
+      "code": "https://github.com/Lucky-chelani/FlimX"
+    }
+  },
+  {
+    "name": "AIBuddy",
+    "desc": "All in one AI Chatbot . Built using Kotlin, Jetpack Compose and Gemini.",
+    "image": "technology",
+    "category": "basicweb",
+    "links": {
+      "view": "https://www.linkedin.com/posts/lucky-chelani_aibuddy-jetpackcompose-geminiai-activity-7193302289627963392-IKyy?utm_source=share&utm_medium=member_desktop",
+      "code": "https://github.com/Lucky-chelani/AIBuddy"
+    }
+  },
+  {
+    "name": "Weather App",
+    "desc": "Native android app built using Kotlin, Jetpack Compose. Retrofit & Glide dependencies.",
+    "image": "weather",
+    "category": "basicweb",
+    "links": {
+      "view": "https://www.linkedin.com/posts/lucky-chelani_weathertech-realtimeweather-activity-7192591549187141634-908a?utm_source=share&utm_medium=member_desktop",
+      "code": "https://github.com/Lucky-chelani/WeatherApp"
+    }
+  },
+  {
+    "name": "Banking UI",
+    "desc": "A Banking UI Application based on Jetpack Compose",
+    "image": "bank",
+    "category": "basicweb",
+    "links": {
+      "view": "https://www.linkedin.com/posts/lucky-chelani_androidapp-bankinginnovation-jetpackcompose-activity-7188527662045224961-Wak0?utm_source=share&utm_medium=member_desktop",
+      "code": "https://github.com/Lucky-chelani/Bank"
+    }
+  },
+  {
+    "name": "HealthCare",
+    "desc": "A web3 based Patient Record Managing Website",
+    "image": "health1",
+    "category": "basicweb",
+    "links": {
+      "view": "https://www.canva.com/design/DAGTtsvz0XI/M26zGaycF0dCX5AMaIalIw/edit",
+      "code": "https://github.com/Lucky-chelani/healthcare"
+    }
+  }
+]
+ 
