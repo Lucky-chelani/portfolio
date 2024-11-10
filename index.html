@@ -309,38 +309,41 @@
       </div>
     </form> -->
 
-    <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
-      <div class="form-group">
+    <form action="https://api.web3forms.com/submit" method="POST">
 
-      <!-- Replace with your Access Key -->
       <input type="hidden" name="access_key" value="e9d3141a-fee5-4e7a-86b0-4a322b24e743">
-      <div class="field">
-        <input type="text" name="name" placeholder="Name" required>
-        <i class='fas fa-user'></i>
+
+      <!-- Form Inputs. Each input must have a name="" attribute -->
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+          <textarea placeholder="Message" name="message" required></textarea>
+          <i class="fas fa-comment-dots"></i>
+        </div>
       </div>
-      <div class="field">
-        <input type="text" name="email" placeholder="Email" required>
-        <i class='fas fa-envelope'></i>
-      </div>
-      <div class="message">
-        <input placeholder="Message" name="message" required></input>
-        <i class="fas fa-comment-dots"></i>
-      </div>
-      
-  
+
       <!-- Honeypot Spam Protection -->
       <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-  
+
       <!-- Custom Confirmation / Success Page -->
-      <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+      <!-- <input type="hidden" name="redirect" target="_blank" value=""> -->
+
       <div class="button-area">
         <button type="submit">
           Submit <i class="fa fa-paper-plane"></i></button>
-        </div>
-
-    </div>
-  
-  </form>
+      </div>
+        </form>
   </div>
   </div>
 </section>
