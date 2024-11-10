@@ -60,7 +60,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Lucky Chelani";
-            $("#favicon").attr("href", "assets/images/main.jpg");
+            $("#favicon").attr("href", "assets/images/main.png");
         }
         else {
             document.title = "Come Back To Portfolio";
