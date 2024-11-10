@@ -283,7 +283,7 @@
       <div class="image-box">
         <img draggable="false" src="./assets/images/contact1.png" alt="">
       </div>
-    <form id="contact-form">
+    <!-- <form id="contact-form">
       
       <div class="form-group">
         <div class="field">
@@ -307,7 +307,44 @@
         <button type="submit">
           Submit <i class="fa fa-paper-plane"></i></button>
       </div>
-    </form>
+    </form> -->
+
+    <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+      <div class="form-group">
+
+      <!-- Replace with your Access Key -->
+      <input type="hidden" name="access_key" value="e9d3141a-fee5-4e7a-86b0-4a322b24e743">
+      <div class="field">
+        <input type="text" name="name" required>
+        <i class='fas fa-user'></i>
+      </div>
+      <div class="field">
+        <input type="email" name="email" required>
+        <i class='fas fa-envelope'></i>
+      </div>
+      <div class="field">
+        <textarea name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+      </div>
+
+
+      
+      
+      
+  
+      <!-- Honeypot Spam Protection -->
+      <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+  
+      <!-- Custom Confirmation / Success Page -->
+      <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+        </div>
+
+    </div>
+  
+  </form>
   </div>
   </div>
 </section>
